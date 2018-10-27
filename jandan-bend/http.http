@@ -1,0 +1,29 @@
+# POST http://127.0.0.1:8080/comment HTTP/1.1
+# content-type: application/json
+
+# {
+#     "author": "郑龙生",
+#     "email": "1111111@qq.com",
+#     "comment":"fdfsfsfsfs",
+#     "comment_post_ID":"55592"
+# }
+
+# POST http://127.0.0.1:8080/like HTTP/1.1
+# content-type: application/json
+
+# {
+#     "postid": "3982060",
+#     "type": "like"
+# }
+
+
+
+POST http://127.0.0.1:8080/SetPostcomment HTTP/1.1
+content-type: application/json
+
+{
+    "author": "dadaswdas",
+    "email": "232843@qq.com",
+    "comment": "市场不断将保持多久火炬红包计划计划吧",
+    "postid": "3990441"
+}
